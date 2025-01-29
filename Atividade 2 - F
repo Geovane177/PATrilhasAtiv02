@@ -8,7 +8,7 @@ namespace Atividade_2___F
 		{
 			
 			double raiz = 0;
-			Console.WriteLine("Digite dois números: ");
+			Console.WriteLine("Digite um: ");
 			double numero1 = Convert.ToDouble(Console.ReadLine());
 			
 			raiz = Math.Sqrt(numero1);
