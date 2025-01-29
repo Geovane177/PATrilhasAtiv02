@@ -1,6 +1,6 @@
 using System;
 
-namespace Atividade_2___A
+namespace Atividade_2___C
 {
 	class Program
 	{
@@ -14,9 +14,8 @@ namespace Atividade_2___A
 			
 			Console.WriteLine("A metade de "+ numero1 +" é: "+ dobro);
 			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
+		
+			Console.Write("Pressione para continuar . . . ");
 			Console.ReadKey(true);
 		}
 	}
