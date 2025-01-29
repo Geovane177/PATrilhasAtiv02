@@ -10,7 +10,7 @@ namespace Atividade_2___D
 			int numero1 = Convert.ToInt32(Console.ReadLine());
 		
 			
-			int quadrado = numero1 * 2;
+			int quadrado = numero1 * numero1;
 			
 			Console.WriteLine("o numero "+ numero1 +" ao quadrado é: "+ quadrado);
 			
