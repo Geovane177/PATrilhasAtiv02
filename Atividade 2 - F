@@ -1,0 +1,23 @@
+using System;
+
+namespace Atividade_2___F
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			double raiz = 0;
+			Console.WriteLine("Digite dois números: ");
+			double numero1 = Convert.ToDouble(Console.ReadLine());
+			
+			raiz = Math.Sqrt(numero1);
+			
+			
+			Console.WriteLine("a raid quadrado do número digitado é: "+ raiz);
+			
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
