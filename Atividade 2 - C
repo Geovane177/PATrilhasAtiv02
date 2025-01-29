@@ -10,9 +10,9 @@ namespace Atividade_2___C
 			int numero1 = Convert.ToInt32(Console.ReadLine());
 		
 			
-			int dobro = numero1 / 2;
+			int metade = numero1 / 2;
 			
-			Console.WriteLine("A metade de "+ numero1 +" é: "+ dobro);
+			Console.WriteLine("A metade de "+ numero1 +" é: "+ metade);
 			
 		
 			Console.Write("Pressione para continuar . . . ");
