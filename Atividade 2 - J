@@ -1,0 +1,23 @@
+using System;
+
+namespace Atividade_2___J
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Digite dois números: ");
+			double numero1 = Convert.ToDouble(Console.ReadLine());
+						
+			double resto = numero1%2;
+			
+			
+			Console.WriteLine("O resto do numero divido por 2 é: "+ resto);
+			
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
