@@ -7,10 +7,10 @@ namespace Atividade_2___C
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Digite um números: ");
-			int numero1 = Convert.ToInt32(Console.ReadLine());
+			double numero1 = Convert.ToDouble(Console.ReadLine());
 		
 			
-			int metade = numero1 / 2;
+			double metade = numero1 / 2;
 			
 			Console.WriteLine("A metade de "+ numero1 +" é: "+ metade);
 			
