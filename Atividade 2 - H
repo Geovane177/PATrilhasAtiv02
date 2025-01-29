@@ -1,0 +1,22 @@
+using System;
+
+namespace Atividade_2___H
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+		
+			Console.WriteLine("Digite dois números: ");
+			double numero1 = Convert.ToDouble(Console.ReadLine());
+						
+			double absoluto = Math.Abs(numero1);
+			
+			
+			Console.WriteLine("O valor absoluto de "+ numero1 +" é: "+ absoluto);
+			
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
