@@ -1,0 +1,23 @@
+using System;
+
+namespace Atividade_2___E
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite dois números: ");
+			double numero1 = Convert.ToDouble(Console.ReadLine());
+			double numero2 = Convert.ToDouble(Console.ReadLine());
+
+		
+			
+			double divisao = numero1 / numero2;
+			
+			Console.WriteLine("a divisão dos numeros é: "+ divisao);
+			
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
